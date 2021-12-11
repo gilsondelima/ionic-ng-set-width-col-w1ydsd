@@ -1,0 +1,64 @@
+ion-col {
+  border: 1px solid grey;
+  text-align: center;
+}
+
+
+.div__dvp {
+  width: 4em;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: rotate(90deg);
+}
+
+.div__dvm {
+  width: 4em;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: rotate(90deg);
+}
+.div__dmo {
+  width: 4em;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: rotate(90deg);
+}
+
+
+.col__dvp {
+  width: 0em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  // transform: rotate(90deg);
+}
+
+.col__dvm {
+  width: 0em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  //transform: rotate(90deg);
+}
+.col__dmo {
+  width: 0em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  //transform: rotate(90deg);
+}
