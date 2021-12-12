@@ -3,11 +3,10 @@ ion-col {
   text-align: center;
 }
 
-
 .div__dvp {
   width: 4em;
   height: 6em;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -26,21 +25,21 @@ ion-col {
 .div__dmo {
   width: 4em;
   height: 6em;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   transform: rotate(90deg);
 }
 
-
 .col__dvp {
-  width: 0em;
+  // width: 0em;
   height: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 1px solid grey;
   // transform: rotate(90deg);
 }
 
@@ -61,4 +60,8 @@ ion-col {
   align-items: center;
   text-align: center;
   //transform: rotate(90deg);
+}
+
+.values-row {
+  padding-top: 60px;
 }
