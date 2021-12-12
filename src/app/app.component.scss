@@ -1,3 +1,5 @@
+$fontDef:calc(max(0.5vw, 10px));
+
 ion-col {
   border: 1px solid grey;
   text-align: center;
@@ -8,6 +10,7 @@ ion-col {
 .div__dvp {
   width: 5em;
   height: 6em;
+  font-size: $fontDef;
   display: inline-flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -19,6 +22,7 @@ ion-col {
 .div__dvm {
   width: 4em;
   height: 6em;
+  font-size: $fontDef;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +32,7 @@ ion-col {
 .div__dmo {
   width: 4em;
   height: 6em;
+  font-size: $fontDef;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +42,7 @@ ion-col {
 
 .col__dvp {
   // width: 0em;
-  height: 2em;
+  height: 6em;
   display: flex;
   justify-content: center;
   align-items: center;
