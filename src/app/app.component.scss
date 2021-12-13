@@ -22,8 +22,8 @@ ion-col {
 .div__dvp {
   width: 100px;
   height: 50px;
-  margin: -50px;
-  font-size: $fontDef;
+  margin: -80px;
+  // font-size: $fontDef;
   background-color: green;
   color: white;
   block-size: 25px;
@@ -36,6 +36,10 @@ ion-col {
   align-items: center;
   text-align: center;
   transform: rotate(90deg);
+}
+.label_dvp{
+  height: auto;
+  margin: auto;
 }
 
 
