@@ -10,8 +10,8 @@ ion-col {
 .col__dvp {
   left: 0;
   top: 0;
-  width: 25px;
-  height: 150px;
+  width: 0;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,14 +22,14 @@ ion-col {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 150px;
+  width: 200px;
   height: 50px;
   margin: 0;
   font-size: $fontDef;
   background-color: green;
   color: white;
   block-size: 25px;
-  display: inline-flex;
+  display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
