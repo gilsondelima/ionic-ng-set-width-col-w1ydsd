@@ -7,9 +7,19 @@ ion-col {
   border-collapse: collapse;
 }
 
+
+.col__dvp {
+  width: 50px;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .div__dvp {
-  width: 100%;
-  height: auto;
+  width: 45px;
+  height: 1%;
   margin: 0%;
   font-size: $fontDef;
   background-color: green;
@@ -54,16 +64,6 @@ ion-col {
   transform: rotate(90deg);
 }
 
-.col__dvp {
-  width: 100%;
-  height: 6em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  // border: 1px solid grey;
-  // transform: rotate(90deg);
-}
 
 
 
